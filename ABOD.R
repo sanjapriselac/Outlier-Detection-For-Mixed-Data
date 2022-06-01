@@ -1,3 +1,7 @@
+## Outlier detection method for Mixed-attribute Data 
+## Proposed in "Association-based outlier detection for mixed data" (DOI 10.17485/ijst/2015/v8i25/80260)
+#############################################################################################################################################################
+## Inputs: data frame data with observations in rows and attributes in columns 
 ## parameters min_sup, max_len for Apriori algorithm
 ## parameters mc for minimum count, pbar = {"uniform", "one"} 
 

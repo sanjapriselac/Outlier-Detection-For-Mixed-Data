@@ -1,4 +1,8 @@
-## parameter n: k_nn peremeter for k-nearest neighbour
+## Outlier detection method for Mixed-attribute Data 
+## Proposed in "An Effective Pattern Based Outlier Detection Approach for Mixed Attribute Data" (DOI 10.1007/978-3-642-17432-2_13)
+#############################################################################################################################################################
+## Inputs: data frame data with observations in rows and attributes in columns 
+## parameter n: k_nn paremeter for k-nearest neighbor
 
 POD <- function(data, n = round(0.01*nrow(data)), prior = FALSE) {  
   require(spatstat.geom)

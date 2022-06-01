@@ -1,3 +1,7 @@
+## Outlier detection method for Mixed-attribute Data 
+## Proposed in "Factor analysis of mixed data for anomaly detection" (DOI 10.48550/arXiv.2005.12129)
+#############################################################################################################################################################
+## Inputs: data frame data with observations in rows and attributes in columns 
 ## parameter num.dim for number of singular components
 ## parameter weighted for kurtosis weights in continuous variables
 ## parameter ntrees for isolation forest algorithm 

@@ -1,4 +1,8 @@
-## paramters k for the number of discretization interval
+## Outlier detection method for Mixed-attribute Data 
+## Proposed in "Implementation of Numerical Attribute Discretization for Outlier Detection on Mixed Attribute Data Set" (DOI 10.1109/ICOIACT.2018.8350795)
+#############################################################################################################################################################
+## Inputs: data frame data with observations in rows and attributes in columns 
+## paramter k for the number of discretization intervals
 ## parameter method = {"ZDisc", "KMeans"}
 
 ZDisc_KMeans <- function(data, method = "ZDisc", k = round(log2(nrow(data)+1)), cutoff =0.5) { 

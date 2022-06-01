@@ -1,4 +1,9 @@
+## Outlier detection method for Mixed-attribute Data 
+## Proposed in "Outlier Detection using PCA mix based T2 Control Chart for continuous and categorical data" (DOI 10.1080/03610918.2019.1586921)
+#############################################################################################################################################################
+## Inputs: data frame data with observations in rows and attributes in columns 
 ## parameter k for the number of principal components
+## parameter alpha for conventional control cutoff
 
 PCAmix_T2 <- function(data, alpha = 0.05, k = NULL) {
   require(PCAmixdata)
